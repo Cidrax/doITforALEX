@@ -1,0 +1,36 @@
+.BackButton {
+  position: fixed;
+  min-height: 8vh;
+  width: 200px;
+  top: 0;
+  left: 0;
+  font-size: 30px;
+}
+
+.Title {
+  font-size: 2em;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100vw;
+  height: 7vh;
+}
+
+.MovieContainer {
+  height: 82vw;
+  background-color: white;
+
+  img {
+    background: no-repeat center center;
+  }
+
+
+  .MovieImageCol {
+    padding-top: 10vh;
+  }
+
+  .MovieInfoCol {
+    padding-top: 10vh;
+    text-align: left;
+  }
+
+}

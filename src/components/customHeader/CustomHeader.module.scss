@@ -1,0 +1,18 @@
+.Header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 2;
+  min-height: 8vh;
+  min-width: 800px;
+  border-bottom: 2px solid #CCCCCC;
+
+  input {
+    width: 30%;
+    min-width: 300px;
+    height: 5vh;
+    font-size: 1.5em;
+    margin-top: 1.5vh;
+    text-align: center;
+  }
+}

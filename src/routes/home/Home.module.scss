@@ -1,0 +1,46 @@
+
+.MainContainer {
+  min-height: 100%;
+
+  .MoviesContainer {
+    height: calc(100vh - 8vh);
+    overflow: auto;
+    z-index: 2;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .Search {
+      height: calc(100vh - 8vh);
+      font-size: 5em;
+      width: 100vw;
+      display: table-cell;
+      vertical-align: middle;
+      text-shadow: white 0 0 20px;
+    }
+
+    .MovieBox {
+      margin-top: 20px;
+      border: 2px solid #364652;
+      border-radius: 5px;
+      min-width: 350px;
+      min-height: 200px;
+      cursor: pointer;
+      background-color: white;
+
+      h4 {
+        margin-top: 10px;
+      }
+
+      h3 {
+        font-size: 1.5em;
+      }
+
+      img {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
