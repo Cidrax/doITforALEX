@@ -1,10 +1,10 @@
 import http from "../helpers/http";
 
-const URL = 'http://www.omdbapi.com/?apikey=490a54f8';
+const URL = 'http://www.omdbapi.com/?apikey=4e03032e';
 
 const API = {
-  SEARCH_BY_NAME: (name) => `${ URL }&s=${ name }`,
-  SEARCH_BY_ID: (id) => `${ URL }&i=${ id }`,
+  SEARCH_BY_NAME: (name) => `${URL}&s=${name}`,
+  SEARCH_BY_ID: (id) => `${URL}&i=${id}`,
 };
 export const searchByNameResult = {
   searchedArray: [],
